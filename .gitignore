@@ -1,7 +1,24 @@
+# Environments
 venv/
-__pycache__/
-*.pyc
+.venv/
+env/
+
+# Environment variables & secrets
 .env
-db.sqlite3
+.env.local
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & Coverage
 .pytest_cache/
 .coverage
+htmlcov/
+
+# Local database
+db.sqlite3
+db.sqlite3-journal
+# Postman local workspace settings
+.postman/
